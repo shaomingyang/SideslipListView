@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/line_but"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="简单画一个线" />
+
+    <Button
+        android:id="@+id/dynamic_but"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="逐个显示文字" />
+
+    <Button
+        android:id="@+id/swipe_layout_but"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="显示侧滑布局" />
+
+    <Button
+        android:id="@+id/hua_wei_but"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="华为刻度表" />
+
+    <Button
+        android:id="@+id/cure_view_but"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="画曲线" />
+
+    <Button
+        android:id="@+id/bezier_view_but"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="贝塞尔曲线" />
+
+    <Button
+        android:id="@+id/animstion_view_but"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="动画按钮" />
+</LinearLayout>
