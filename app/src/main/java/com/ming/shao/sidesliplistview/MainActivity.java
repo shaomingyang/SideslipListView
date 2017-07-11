@@ -11,6 +11,7 @@ import com.ming.shao.sidesliplistview.activity.BezierActivity;
 import com.ming.shao.sidesliplistview.activity.CurveViewActivity;
 import com.ming.shao.sidesliplistview.activity.DynamicTextViewActivity;
 import com.ming.shao.sidesliplistview.activity.HuaWeiActivity;
+import com.ming.shao.sidesliplistview.activity.RippleAnimationActivity;
 import com.ming.shao.sidesliplistview.activity.SimpleLineActivity;
 import com.ming.shao.sidesliplistview.activity.SwipeLayoutActivity;
 
@@ -22,6 +23,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     Button cure_view_but;
     Button bezier_view_but;
     Button animstion_view_but;
+
+    Button animstion_ripple_but;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +42,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         cure_view_but = (Button) this.findViewById(R.id.cure_view_but);
         bezier_view_but = (Button) this.findViewById(R.id.bezier_view_but);
         animstion_view_but = (Button) this.findViewById(R.id.animstion_view_but);
+        animstion_ripple_but = (Button) this.findViewById(R.id.animstion_ripple_but);
     }
 
     private void initListener() {
@@ -49,6 +53,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         cure_view_but.setOnClickListener(this);
         bezier_view_but.setOnClickListener(this);
         animstion_view_but.setOnClickListener(this);
+        animstion_ripple_but.setOnClickListener(this);
     }
 
     @Override
@@ -74,6 +79,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.animstion_view_but:
                 startActivity(new Intent(MainActivity.this, AnumationActivity.class));
+                break;
+            case R.id.animstion_ripple_but:
+                startActivity(new Intent(MainActivity.this, RippleAnimationActivity.class));
                 break;
         }
     }

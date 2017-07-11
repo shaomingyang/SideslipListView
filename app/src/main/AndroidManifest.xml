@@ -24,6 +24,7 @@
         <activity android:name=".activity.CurveViewActivity" />
         <activity android:name=".activity.BezierActivity" />
         <activity android:name=".activity.AnumationActivity" />
+        <activity android:name=".activity.RippleAnimationActivity" />
     </application>
 
 </manifest>
